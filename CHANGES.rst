@@ -6,7 +6,7 @@ For older changes please refer to the change log for
 https://github.com/zopefoundation/Products.TemporaryFolder/blob/master/CHANGES.rst
 
 
-1.0 (unreleased)
+1.0 (2020-08-31)
 ----------------
 
 - split ``Products.ZODBMountPoint`` out of ``Products.TemporaryFolder``
