@@ -33,5 +33,5 @@ specifying where they show up. This example uses the (**deprecated**)
       mount-point /temp_folder
       container-class Products.TemporaryFolder.TemporaryContainer
   </zodb_db>
-  
-  For details on session configuration, see `the Zope book on session management <https://zope.readthedocs.io/en/latest/zopebook/Sessions.html>`_.
+
+For details on session configuration, see `the Zope book on session management <https://zope.readthedocs.io/en/latest/zopebook/Sessions.html>`_.
