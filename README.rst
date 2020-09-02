@@ -22,14 +22,18 @@ Usage example
 -------------
 You can mount additional storages into the ZODB as seen by the Zope client 
 by adding ``zodb_db`` configurations in your Zope configuration file and
-specifying where they show up. This example uses the (**deprecated**)
-``Products.TemporaryFolder`` product to mount a temporary folder at
-``/temp_folder``::
+specifying where they show up. This example uses the
+ZODB `MappingStorage
+<https://zodb-docs.readthedocs.io/en/latest/reference/storages.html#mappingstorage>`_
+to mount a temporary folder at ``/temp_folder``::
 
   <zodb_db temporary>
-      <temporarystorage>
+      <mappingstorage>
         name Temporary database
-      </temporarystorage>
+      </mappingstorage>
       mount-point /temp_folder
       container-class Products.TemporaryFolder.TemporaryContainer
   </zodb_db>
+
+For details on session configuration, see `the Zope book chapter on session
+management <https://zope.readthedocs.io/en/latest/zopebook/Sessions.html>`_.
