@@ -1,5 +1,5 @@
-.. image:: https://travis-ci.org/zopefoundation/Products.ZODBMountPoint.svg?branch=master
-   :target: https://travis-ci.org/zopefoundation/Products.ZODBMountPoint
+.. image:: https://travis-ci.com/zopefoundation/Products.ZODBMountPoint.svg?branch=master
+   :target: https://travis-ci.com/zopefoundation/Products.ZODBMountPoint
 
 .. image:: https://coveralls.io/repos/github/zopefoundation/Products.ZODBMountPoint/badge.svg?branch=master
    :target: https://coveralls.io/github/zopefoundation/Products.ZODBMountPoint?branch=master
