@@ -113,7 +113,7 @@ class MountingTests(unittest.TestCase):
         self.app = app
         # login
         from AccessControl.SecurityManagement import newSecurityManager
-        from AccessControl.User import system
+        from AccessControl.users import system
         newSecurityManager(None, system)
         transaction.commit()  # Get app._p_jar set
         manage_addMounts(app, ('/mount1', '/mount2', '/i/mount3'))
