@@ -9,7 +9,10 @@ https://github.com/zopefoundation/Products.TemporaryFolder/blob/master/CHANGES.r
 1.2 (unreleased)
 ----------------
 
+- update package configuration
+
 - fix deprecation warning
+
 
 1.1 (2021-03-16)
 ----------------

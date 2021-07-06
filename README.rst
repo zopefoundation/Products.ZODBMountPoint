@@ -25,7 +25,9 @@ by adding ``zodb_db`` configurations in your Zope configuration file and
 specifying where they show up. This example uses the
 ZODB `MappingStorage
 <https://zodb-docs.readthedocs.io/en/latest/reference/storages.html#mappingstorage>`_
-to mount a temporary folder at ``/temp_folder``::
+for a simple temporary folder at ``/temp_folder``. After a Zope restart, visit
+the Zope Management Interface and select `ZODB Mount Point` from the list of
+addable items to view and activate all available mount points::
 
   <zodb_db temporary>
       <mappingstorage>
