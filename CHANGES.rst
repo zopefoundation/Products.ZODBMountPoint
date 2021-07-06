@@ -6,6 +6,10 @@ For older changes please refer to the change log for
 https://github.com/zopefoundation/Products.TemporaryFolder/blob/master/CHANGES.rst
 
 
+1.3 (unreleased)
+----------------
+
+
 1.2 (2021-07-06)
 ----------------
 
