@@ -18,7 +18,7 @@ from setuptools import setup
 
 setup(
     name='Products.ZODBMountPoint',
-    version='1.2.dev0',
+    version='1.2',
     url='https://github.com/zopefoundation/Products.ZODBMountPoint',
     project_urls={
         'Issue Tracker': ('https://github.com/zopefoundation/'

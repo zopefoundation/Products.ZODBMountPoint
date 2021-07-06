@@ -6,12 +6,13 @@ For older changes please refer to the change log for
 https://github.com/zopefoundation/Products.TemporaryFolder/blob/master/CHANGES.rst
 
 
-1.2 (unreleased)
+1.2 (2021-07-06)
 ----------------
 
 - update package configuration
 
 - fix deprecation warning
+  (`#4 <https://github.com/zopefoundation/Products.ZODBMountPoint/issues/4>`_)
 
 
 1.1 (2021-03-16)
