@@ -9,11 +9,12 @@ https://github.com/zopefoundation/Products.TemporaryFolder/blob/master/CHANGES.r
 1.3 (unreleased)
 ----------------
 
+- Add support for Python 3.10.
 
 1.2 (2021-07-06)
 ----------------
 
-- update package configuration
+- Update package configuration.
 
 - fix deprecation warning
   (`#4 <https://github.com/zopefoundation/Products.ZODBMountPoint/issues/4>`_)
@@ -22,11 +23,11 @@ https://github.com/zopefoundation/Products.TemporaryFolder/blob/master/CHANGES.r
 1.1 (2021-03-16)
 ----------------
 
-- add support for Python 3.9
+- Add support for Python 3.9.
 
 
 1.0 (2020-08-31)
 ----------------
 
-- split ``Products.ZODBMountPoint`` out of ``Products.TemporaryFolder``
-  after version 5.3
+- Split ``Products.ZODBMountPoint`` out of ``Products.TemporaryFolder``
+  after version 5.3.

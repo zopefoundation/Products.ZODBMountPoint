@@ -2,7 +2,7 @@
 # https://github.com/zopefoundation/meta/tree/master/config/zope-product
 [meta]
 template = "zope-product"
-commit-id = "94ed44ff9a0a89277cdc4d2071e6b03aa889aa80"
+commit-id = "9a5db8c650c45a439db06e3a7b2b86318006659d"
 
 [python]
 with-pypy = false
