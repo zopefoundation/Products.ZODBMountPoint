@@ -6,10 +6,13 @@ For older changes please refer to the change log for
 https://github.com/zopefoundation/Products.TemporaryFolder/blob/master/CHANGES.rst
 
 
-1.3 (unreleased)
+1.3 (2022-12-16)
 ----------------
 
-- Add support for Python 3.10.
+- Fix insidious buildout configuration bug for tests against Zope 4.
+
+- Add support for Python 3.10 and 3.11.
+
 
 1.2 (2021-07-06)
 ----------------

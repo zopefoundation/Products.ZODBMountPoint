@@ -18,7 +18,7 @@ from setuptools import setup
 
 setup(
     name='Products.ZODBMountPoint',
-    version='1.3.dev0',
+    version='1.3',
     url='https://github.com/zopefoundation/Products.ZODBMountPoint',
     project_urls={
         'Issue Tracker': ('https://github.com/zopefoundation/'
@@ -53,6 +53,7 @@ setup(
         'Programming Language :: Python :: 3.8',
         'Programming Language :: Python :: 3.9',
         'Programming Language :: Python :: 3.10',
+        'Programming Language :: Python :: 3.11',
         'Programming Language :: Python :: Implementation :: CPython',
     ],
     keywords='Zope ZODB mount',
