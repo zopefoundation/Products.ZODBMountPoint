@@ -17,10 +17,8 @@
 import os
 import sys
 import traceback
+from io import StringIO
 from logging import getLogger
-
-import six
-from six import StringIO
 
 import transaction
 from AccessControl.class_init import InitializeClass
@@ -44,7 +42,7 @@ def getConfiguration():
     return getConfiguration().dbtab
 
 
-class SimpleTrailblazer(object):
+class SimpleTrailblazer:
     """Follows Zope paths.  If a path is not found, creates a Folder.
 
     Respects Zope security.
@@ -199,8 +197,6 @@ class MountedObject(SimpleItem):
 
         if real_path is None:
             real_path = self._path
-        if six.PY2 and isinstance(real_path, six.text_type):
-            real_path = real_path.encode('utf8')
         if real_path and real_path != '/':
             try:
                 obj = obj.unrestrictedTraverse(real_path)
@@ -272,7 +268,7 @@ class MountedObject(SimpleItem):
         return data.__of__(parent)
 
     def __repr__(self):
-        return '%s(id=%s)' % (self.__class__.__name__, repr(self.id))
+        return '{}(id={})'.format(self.__class__.__name__, repr(self.id))
 
 
 InitializeClass(MountedObject)
@@ -331,7 +327,7 @@ def manage_getMountStatus(dispatcher):
             # Oops, didn't actually mount!
             exists = 1
             t, v = o._v_connect_error[:2]
-            status = '%s: %s' % (t, v)
+            status = '{}: {}'.format(t, v)
         else:
             exists = 1
             mp = getMountPoint(o)

@@ -37,7 +37,7 @@ except NameError:
     __file__ = os.path.abspath(sys.argv[0])
 
 
-class TestDBConfig(object):
+class TestDBConfig:
 
     def __init__(self, fname, mpoints):
         self.fname = fname
