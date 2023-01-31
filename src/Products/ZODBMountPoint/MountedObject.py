@@ -268,7 +268,7 @@ class MountedObject(SimpleItem):
         return data.__of__(parent)
 
     def __repr__(self):
-        return '{}(id={})'.format(self.__class__.__name__, repr(self.id))
+        return f'{self.__class__.__name__}(id={self.id!r})'
 
 
 InitializeClass(MountedObject)
@@ -327,7 +327,7 @@ def manage_getMountStatus(dispatcher):
             # Oops, didn't actually mount!
             exists = 1
             t, v = o._v_connect_error[:2]
-            status = '{}: {}'.format(t, v)
+            status = f'{t}: {v}'
         else:
             exists = 1
             mp = getMountPoint(o)
