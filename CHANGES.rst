@@ -6,7 +6,7 @@ For older changes please refer to the change log for
 https://github.com/zopefoundation/Products.TemporaryFolder/blob/master/CHANGES.rst
 
 
-1.4 (unreleased)
+2.0 (unreleased)
 ----------------
 
 
