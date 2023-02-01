@@ -6,7 +6,7 @@ For older changes please refer to the change log for
 https://github.com/zopefoundation/Products.TemporaryFolder/blob/master/CHANGES.rst
 
 
-2.0 (unreleased)
+2.0 (2023-02-01)
 ----------------
 
 - Drop support for Python 2.7, 3.5, 3.6.
