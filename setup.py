@@ -18,7 +18,7 @@ from setuptools import setup
 
 setup(
     name='Products.ZODBMountPoint',
-    version='1.4.dev0',
+    version='2.0.dev0',
     url='https://github.com/zopefoundation/Products.ZODBMountPoint',
     project_urls={
         'Issue Tracker': ('https://github.com/zopefoundation/'
@@ -29,7 +29,7 @@ setup(
     license='ZPL 2.1',
     description='Zope ZODB mount point support.',
     author='Zope Foundation and Contributors',
-    author_email='zope-dev@zope.org',
+    author_email='zope-dev@zope.dev',
     long_description=(open('README.rst').read() + '\n' +
                       open('CHANGES.rst').read()),
     packages=find_packages('src'),
@@ -39,16 +39,11 @@ setup(
         'Development Status :: 6 - Mature',
         'Environment :: Web Environment',
         'Framework :: Zope',
-        'Framework :: Zope :: 4',
         'Framework :: Zope :: 5',
         'License :: OSI Approved :: Zope Public License',
         'Operating System :: OS Independent',
         'Programming Language :: Python',
-        'Programming Language :: Python :: 2',
-        'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.5',
-        'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
         'Programming Language :: Python :: 3.9',
@@ -57,12 +52,11 @@ setup(
         'Programming Language :: Python :: Implementation :: CPython',
     ],
     keywords='Zope ZODB mount',
-    python_requires='>=2.7,!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*',
+    python_requires='>=3.7',
     install_requires=[
         'setuptools',
         'AccessControl',
         'Acquisition',
-        'six',
         'ZODB',
         'Zope >= 4.0b5',
     ],
