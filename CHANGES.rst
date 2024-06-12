@@ -9,6 +9,8 @@ https://github.com/zopefoundation/Products.TemporaryFolder/blob/master/CHANGES.r
 ----------------
 
 
+- Drop support for Python 3.7.
+
 2.0 (2023-02-01)
 ----------------
 
