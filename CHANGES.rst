@@ -5,9 +5,13 @@ For older changes please refer to the change log for
 ``Products.TemporaryFolder`` prior to version 5.4 at
 https://github.com/zopefoundation/Products.TemporaryFolder/blob/master/CHANGES.rst
 
-2.1 (unreleased)
+3.0 (unreleased)
 ----------------
 
+
+- Add support for Python 3.12.
+
+- Drop support for Python 3.7.
 
 2.0 (2023-02-01)
 ----------------
