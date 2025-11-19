@@ -55,6 +55,7 @@ setup(
         'ZODB',
         'Zope >= 4.0b5',
     ],
+    include_package_data=True,
     entry_points="""
     [zope2.initialize]
     Products.ZODBMountPoint = Products.ZODBMountPoint:initialize
