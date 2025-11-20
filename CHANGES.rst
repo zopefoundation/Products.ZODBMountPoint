@@ -5,6 +5,10 @@ For older changes please refer to the change log for
 ``Products.TemporaryFolder`` prior to version 5.4 at
 https://github.com/zopefoundation/Products.TemporaryFolder/blob/master/CHANGES.rst
 
+3.1 (unreleased)
+----------------
+
+
 3.0 (2025-11-20)
 ----------------
 
