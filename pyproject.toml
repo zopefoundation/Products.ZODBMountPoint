@@ -40,7 +40,7 @@ dependencies = [
     "AccessControl",
     "Acquisition",
     "ZODB",
-    "Zope >= 4.0b5",
+    "Zope >= 5",
 ]
 keywords = ["Zope", "ZODB", "mount"]
 
