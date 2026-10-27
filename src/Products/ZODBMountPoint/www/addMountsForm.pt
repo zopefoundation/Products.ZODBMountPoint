@@ -24,7 +24,7 @@
 					<tbody>
 						<tr tal:repeat="stat stats">
 							<td class="zmi-mounts-id">
-								<input tal:condition="not: stat/exists" 
+								<input tal:condition="not: stat/exists"
 									tal:attributes="value stat/path"
 									type="checkbox" name="paths:list" checked="checked" />
 							</td>

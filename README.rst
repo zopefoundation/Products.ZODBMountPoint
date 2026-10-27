@@ -20,7 +20,7 @@ Zope ZODB mount point support
 
 Usage example
 -------------
-You can mount additional storages into the ZODB as seen by the Zope client 
+You can mount additional storages into the ZODB as seen by the Zope client
 by adding ``zodb_db`` configurations in your Zope configuration file and
 specifying where they show up. This example uses the
 ZODB `MappingStorage
